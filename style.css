@@ -56,23 +56,25 @@ body{
 .white_square1{
     width: 310px;
     height: 310px;
-    margin-top: 224px;
+    margin-top: 214px;
     background-color: white;
 }
 td{
     border: 0px;
     background-color: #282828;
     border-color: #282828;
-    padding: 30px;
+    padding: 20px;
 }
 table{
+    margin-top: 30px;
+    margin-left: 80px;
     border-collapse: collapse;
     border: 0px;
     border-color: #282828;
 }
 .container5{
     width: 1240px;
-    height: 1860px;
+    height: 1830px;
     margin-left: 325px;
     background-color: dimgray;
 }
@@ -108,6 +110,7 @@ table{
     float: left;
 }
 .search{
+    position: relative;
     height: 310px;
     width: 975px;
     background-color: #282828;
@@ -177,7 +180,17 @@ table{
     margin-left: 20px;
     font-size: 13pt;
     font-family: 'calibri';
+    font-weight: bold;
     color: #363636;
+}
+.text2{
+    width: 550px;
+    max-width: 80%;
+    margin-left: 20px;
+    font-size: 13pt;
+    font-family: 'calibri';
+    font-weight: bold;
+    color: #A0A0A0;
 }
 .text1{
     width: 550px;
@@ -185,6 +198,7 @@ table{
     margin-left: 20px;
     font-size: 13pt;
     font-family: 'calibri';
+    font-weight: bold;
     color: #A0A0A0;
 }
 .otstup_texta{
@@ -218,7 +232,7 @@ table{
     height: 20px;
 }
 .otstup_mejdu2{
-    height: 150px;
+    height: 120px;
 }
 .elements{
     left: 50%;
@@ -273,4 +287,158 @@ table{
 .third_romb{
     margin-top: 143px;
     margin-left: -12px;
+}
+.otstup_search{
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-bottom: -10px;
+}
+.otstup_search p {
+    color: #d7d7d7;
+    font-family: calibri;
+    font-size: 15pt;
+}
+.polosa{
+    margin-left: 50px;
+}
+.lupa{
+    position: absolute;
+    top: 120px;
+    left: 550px;
+}
+.i60x60{
+    margin-top: 30px;
+    margin-left: 45%;
+    margin-bottom: 10px;
+}
+.stars{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 43.5%;
+}
+.name{
+    text-align: center;
+    font-family: calibri;
+    font-weight: bold;
+    color: #363636;
+}
+.text_long{
+    text-align: center;
+    margin-left: 10%;
+    font-weight: bold;
+    font-family: calibri;
+    max-width: 500px;
+    color: #A0A0A0;
+}
+.wheat_long .otstup_slider{
+    margin-left: 270px;
+    margin-top: 30px;
+}
+.wheat_long  .slider_palka1{
+    width: 30px;
+    height: 5px;
+    background: #A0A0A0;
+    float: left;
+}
+.wheat_long  .slider_palka2{
+    width: 30px;
+    height: 5px;
+    margin-left: 15px;
+    background: #282828;
+    float: left;
+}
+.elements2{
+    margin: 25px;
+}
+.numbers{
+    font-family: calibri;
+    font-size: 30pt;
+    margin-left: 25px;
+    font-weight: 500;
+    color: #707070;
+}
+.description{
+    font-family: calibri;
+    font-size: 12pt;
+    margin-left: 25px;
+    font-weight: 500;
+    color: #707070;
+}
+.white_square2 .i60x60{
+    margin-left: 41%;
+}
+.white_square2 .stars{
+    margin-left: 38%;
+}
+.white_square2 .text_long{
+    margin-left: 4%;
+}
+.blue_square .zagolovok{
+    color: white;
+}
+.blue_square .otstup_zagolovka{
+    margin-bottom: 10px;
+}
+.blue_square .text{
+    color: white;
+    font-size: 15pt;
+}
+.blue_square .text2{
+    color: white;
+    font-size: 12pt;
+    opacity: 0.6;
+    line-height: 50px;
+}
+.blue_square .otstup_slider{
+    margin-left: 25px;
+    margin-top: 50px;
+}
+.blue_square  .slider_palka1{
+    width: 30px;
+    height: 5px;
+    background: white;
+    float: left;
+}
+.blue_square  .slider_palka2{
+    width: 30px;
+    height: 5px;
+    margin-left: 15px;
+    background: white;
+    opacity: 0.6;
+    float: left;
+}
+.e-mail{
+    width: 250px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 60px;
+    line-height: 50px;
+    text-align: left;
+    text-indent: 10px;
+    background-color: white;
+    color: #2297d8;
+    font-family: 'calibri';
+    font-weight: bold;
+}
+.sign_up{
+    width: 550px;
+    max-width: 80%;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: right;
+    font-size: 10pt;
+    font-family: 'calibri';
+    color: white;
+}
+.f1{
+    margin-top: 40px;
+    float: left;
+    color: #A0A0A0;
+    font-family: calibri;
+}
+.f2{
+    float: right;
+    margin-top: 40px;
+    color: #A0A0A0;
+    font-family: calibri;
 }
