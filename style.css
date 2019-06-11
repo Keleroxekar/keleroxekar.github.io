@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    align-content: center;
+}
 .container{
     width: 1920px;
     height: 3500px;
@@ -16,7 +19,7 @@
 .fundament_left_up{
     height: 930px;
     width: 1255px;
-    background-color: #d7d7d7;
+    background: url(images/left.png);
 }
 .logo{
     margin-left: 330px;
@@ -30,6 +33,7 @@
     background-color: #ffe400;
 }
 .blue_square1{
+    position: relative;
     width: 310px;
     height: 310px;
     margin-left: 945px;
@@ -44,7 +48,7 @@
 .fundament_right_up{
     height: 930px;
     width: 665px;
-    background-color: #282828;
+    background: url(images/right.png);
 }
 .menu{
     background-color: #2297d8;
@@ -91,7 +95,8 @@ table{
 .glass_square1{
     width: 310px;
     height: 310px;
-    float: left
+    float: left;
+    background: url(images/293.png);
 }
 .section2{
     margin-left: 325px;
@@ -118,6 +123,7 @@ table{
     height: 310px;
     width: 620px;
     float: left;
+    background: url(images/586.png);
 }
 .wheat_long{
     height: 310px;
@@ -135,4 +141,136 @@ table{
     width: 620px;
     height: 620px;
     float: left;
-} 
+    background: url(images/586x586.png);
+}
+.zagolovok{
+    margin-left: 20px;
+    width: 320px;
+    max-width: 70%;
+    float: none;
+    line-height: 28pt;
+    font-family: 'calibri';
+    font-size: 28pt;
+    font-weight: bold; 
+    color: #363636;
+}
+.zagolovok1{
+    margin-left: 20px;
+    width: 320px;
+    max-width: 70%;
+    float: none;
+    line-height: 20pt;
+    font-family: 'calibri';
+    font-size: 20pt;
+    font-weight: bold; 
+    color: #363636;
+}
+.otstup_zagolovka{
+    padding-top: 25px;
+}
+.palka{
+    margin-left: 20px;
+}
+.text{
+    width: 550px;
+    max-width: 80%;
+    margin-left: 20px;
+    font-size: 13pt;
+    font-family: 'calibri';
+    color: #363636;
+}
+.text1{
+    width: 550px;
+    max-width: 80%;
+    margin-left: 20px;
+    font-size: 13pt;
+    font-family: 'calibri';
+    color: #A0A0A0;
+}
+.otstup_texta{
+    padding-top: 10px;
+}
+.grey_button{
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 25px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #363636;
+    color: #ffffff;
+    font-family: 'calibri';
+    font-weight: bold;
+}
+.yellow_button{
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 25px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ffe400;
+    color: #363636;
+    font-family: 'calibri';
+    font-weight: bold;
+}
+.otstup_mejdu{
+    height: 20px;
+}
+.otstup_mejdu2{
+    height: 150px;
+}
+.elements{
+    left: 50%;
+    margin-top: 100px;
+    margin-left: 119.5px;
+}
+.elements1{
+    left: 50%;
+    margin-top: 100px;
+    margin-left: 128px;
+}
+.under_elements{
+    line-height: 40px;
+    text-align: center;
+    font-family: 'calibri';
+    color: white;
+    font-weight: bold;
+}.under_elements1{
+    line-height: 40px;
+    text-align: center;
+    font-family: 'calibri';
+    color: #363636;
+    font-weight: bold;
+}
+.switch{
+    margin-top: 50px;
+    margin-left: 144px;
+    margin-bottom: 50px;
+}
+.slider1{
+    text-align: center;
+    font-family: verdana;
+    font-size: 20pt;
+    margin-left: -20px;
+}
+.span1{
+    position: absolute;
+    font-family: verdana;
+    font-size: 15pt;
+}
+.corner{
+    background: none;
+}
+.first_romb{
+    margin-top: 143px;
+    margin-left: 298px;
+}
+.second_romb{
+    margin-top: 298px;
+    margin-left: 143px;
+}
+.third_romb{
+    margin-top: 143px;
+    margin-left: -12px;
+}
