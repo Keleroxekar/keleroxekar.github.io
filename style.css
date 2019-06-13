@@ -56,14 +56,13 @@ body{
 .white_square1{
     width: 310px;
     height: 310px;
-    margin-top: 214px;
+    margin-top: 254px;
     background-color: white;
 }
 td{
     border: 0px;
     background-color: #282828;
     border-color: #282828;
-    padding: 20px;
 }
 table{
     margin-top: 30px;
@@ -71,6 +70,13 @@ table{
     border-collapse: collapse;
     border: 0px;
     border-color: #282828;
+}
+.menu a {
+    padding: 20px;
+    transition: 0.2s;
+}
+.menu a:hover{
+    background-color: #707070;
 }
 .container5{
     width: 1240px;
@@ -224,17 +230,23 @@ a.grey_button1:hover{
 a.grey_button1:active{
     background-color: #A0A0A0;
 }
-.yellow_button{
-    width: 150px;
-    height: 50px;
+.yellow_button1{
     margin-left: 20px;
-    margin-top: 25px;
-    line-height: 50px;
+    margin-top: 20px;
+    line-height: 150px;
     text-align: center;
     background-color: #ffe400;
     color: #363636;
     font-family: 'calibri';
     font-weight: bold;
+    text-decoration: none; 
+    user-select: none;
+    padding: 15px;
+    transition: 0.2s;
+}
+.yellow_button1:hover{
+    background-color: #707070;
+    color: #ffe400;
 }
 .otstup_mejdu{
     height: 20px;
