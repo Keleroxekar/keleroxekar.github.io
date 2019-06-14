@@ -26,7 +26,6 @@ body{
 }
 .yellow_long{
     align-self: center;
-    height: 310px;
     width: 620px;
     background-color: #ffe400;
 }
@@ -51,9 +50,6 @@ body{
     min-width: 620px;
     background: url(images/right.png);
 }
-.menu{
-    background-color: #2297d8;
-}
 .white_square1{
     align-self: center;
     float: right;
@@ -68,14 +64,14 @@ td{
 }
 table{
     align-self: center;
-    margin: 30px;
+    margin: 50px;
     float: right;
     border-collapse: collapse;
     border: 0px;
     border-color: #282828;
 }
 .menu a {
-    padding: 20px;
+    padding: 50px;
     transition: 0.2s;
 }
 .menu a:hover{
