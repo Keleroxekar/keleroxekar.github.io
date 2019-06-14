@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+.screen{
+    display: none;
+}
 body{
     display: flex;
     justify-content: center;
