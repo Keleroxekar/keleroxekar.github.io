@@ -25,7 +25,10 @@ hp1.src = "image/1hp.png";
 var xPos = 100;
 var yPos = 400;
 
-// Управление звездолетом
+//счет
+var score = 0;
+// hp
+var hp=3;
 //document.addEventListener('keypress', moveUp)
 
 //Нажатые клавиши
@@ -48,7 +51,154 @@ alien[0] = {
  x : cvs.width,
  y : 0
 }
+alien.push({ 
+    x : cvs.width+200, 
+    y : Math.random()*(650-invader.height)
+    })
+    alien.push({ 
+        x : cvs.width+150, 
+        y : Math.random()*(650-invader.height) 
+        })
 
+        alien.push({ 
+            x : cvs.width+170, 
+            y : Math.random()*(650-invader.height) 
+            })
+
+            alien.push({ 
+                x : cvs.width+400, 
+                y : Math.random()*(650-invader.height) 
+                })
+            
+                alien.push({ 
+                    x : cvs.width+50, 
+                    y : Math.random()*(650-invader.height) 
+                    })
+                    alien.push({ 
+                        x : cvs.width+300, 
+                        y : Math.random()*(650-invader.height) 
+                        })
+                
+                        alien.push({ 
+                            x : cvs.width+475, 
+                            y : Math.random()*(650-invader.height) 
+                            })
+                
+                            alien.push({ 
+                                x : cvs.width+560, 
+                                y : Math.random()*(650-invader.height) 
+                                })
+                                alien.push({ 
+                                    x : cvs.width+200, 
+                                    y : Math.random()*(650-invader.height) 
+                                    })
+                                    alien.push({ 
+                                        x : cvs.width+150, 
+                                        y : Math.random()*(650-invader.height) 
+                                        })
+                                
+                                        alien.push({ 
+                                            x : cvs.width+170, 
+                                            y : Math.random()*(650-invader.height) 
+                                            })
+                                
+                                            alien.push({ 
+                                                x : cvs.width+400, 
+                                                y : Math.random()*(650-invader.height) 
+                                                })
+                                            
+                                                alien.push({ 
+                                                    x : cvs.width+50, 
+                                                    y : Math.random()*(650-invader.height) 
+                                                    })
+                                                    alien.push({ 
+                                                        x : cvs.width+300, 
+                                                        y : Math.random()*(650-invader.height) 
+                                                        })
+                                                
+                                                        alien.push({ 
+                                                            x : cvs.width+475, 
+                                                            y : Math.random()*(650-invader.height) 
+                                                            })
+                                                
+                                                            alien.push({ 
+                                                                x : cvs.width+560, 
+                                                                y : Math.random()*(650-invader.height) 
+                                                                })
+                                                                alien.push({ 
+                                                                    x : cvs.width+200, 
+                                                                    y : Math.random()*(650-invader.height) 
+                                                                    })
+                                                                    alien.push({ 
+                                                                        x : cvs.width+150, 
+                                                                        y : Math.random()*(650-invader.height) 
+                                                                        })
+                                                                
+                                                                        alien.push({ 
+                                                                            x : cvs.width+170, 
+                                                                            y : Math.random()*(650-invader.height) 
+                                                                            })
+                                                                
+                                                                            alien.push({ 
+                                                                                x : cvs.width+400, 
+                                                                                y : Math.random()*(650-invader.height) 
+                                                                                })
+                                                                            
+                                                                                alien.push({ 
+                                                                                    x : cvs.width+50, 
+                                                                                    y : Math.random()*(650-invader.height) 
+                                                                                    })
+                                                                                    alien.push({ 
+                                                                                        x : cvs.width+300, 
+                                                                                        y : Math.random()*(650-invader.height) 
+                                                                                        })
+                                                                                
+                                                                                        alien.push({ 
+                                                                                            x : cvs.width+475, 
+                                                                                            y : Math.random()*(650-invader.height) 
+                                                                                            })
+                                                                                
+                                                                                            alien.push({ 
+                                                                                                x : cvs.width+860, 
+                                                                                                y : Math.random()*(650-invader.height) 
+                                                                                                })
+                                                                                                alien.push({ 
+                                                                                                    x : cvs.width+700, 
+                                                                                                    y : Math.random()*(650-invader.height) 
+                                                                                                    })
+                                                                                                    alien.push({ 
+                                                                                                        x : cvs.width+650, 
+                                                                                                        y : Math.random()*(650-invader.height) 
+                                                                                                        })
+                                                                                                
+                                                                                                        alien.push({ 
+                                                                                                            x : cvs.width+870, 
+                                                                                                            y : Math.random()*(650-invader.height) 
+                                                                                                            })
+                                                                                                
+                                                                                                            alien.push({ 
+                                                                                                                x : cvs.width+900, 
+                                                                                                                y : Math.random()*(650-invader.height) 
+                                                                                                                })
+                                                                                                            
+                                                                                                                alien.push({ 
+                                                                                                                    x : cvs.width+650, 
+                                                                                                                    y : Math.random()*(650-invader.height) 
+                                                                                                                    })
+                                                                                                                    alien.push({ 
+                                                                                                                        x : cvs.width+700, 
+                                                                                                                        y : Math.random()*(650-invader.height) 
+                                                                                                                        })
+                                                                                                                
+                                                                                                                        alien.push({ 
+                                                                                                                            x : cvs.width+875, 
+                                                                                                                            y : Math.random()*(650-invader.height) 
+                                                                                                                            })
+                                                                                                                
+                                                                                                                            alien.push({ 
+                                                                                                                                x : cvs.width+560, 
+                                                                                                                                y : Math.random()*(650-invader.height) 
+                                                                                                                                })
 // Пошло поехало
 function draw() {
     
@@ -81,22 +231,62 @@ function draw() {
     }
     
 
+    
+    //Здоровье
+    if(hp==3){
+        ctx.drawImage(hp3, 50, 50);
+    }
+    else if(hp==2){
+        ctx.drawImage(hp2, 50, 50);
+    }
+    else if(hp==1){
+        ctx.drawImage(hp1, 50, 50);
+    }
+    else if(hp<1){
+        alert('Ты ВМЕР! СЧЕТ: '+score);
+        location.reload();
+    }
+    //передвижение планетян
     for(var i = 0; i < alien.length; i++) { 
         ctx.drawImage(invader, alien[i].x, alien[i].y); 
         
         alien[i].x--; 
         
         if(alien[i].x < 0) { 
-        alien[i].x = cvs.width - 10; 
+            alien[i].x = cvs.width - 10;
+            hp-=1;
+        }
+        if(alien[i].x<cvs.width){
+            if(xPos + ship.width > alien[i].x &&
+                xPos + ship.width < alien[i].x+invader.width &&
+                yPos > alien[i].y &&
+                yPos < alien[i].y+invader.height){
+                    ctx.drawImage(boom, xPos, yPos);
+                }
 
-        for(b in shoot){
-            if(shoot[b].x + bullet.width  == alien[i].x) {
-            shoot[b].x = cvs.width*2;
-            alien[i].x = cvs.width*2;
-            }
+                if(xPos + ship.width > alien[i].x &&
+                    xPos + ship.width < alien[i].x+invader.width &&
+                    yPos > alien[i].y &&
+                    yPos < alien[i].y+invader.height){
+                alert('Ты ВМЕР! СЧЕТ: '+score);
+                    location.reload();
+                    }
+
+
+
+            for(b in shoot){
+                if(shoot[b].x + bullet.width > alien[i].x &&
+                shoot[b].x + bullet.width < alien[i].x+invader.width &&
+                shoot[b].y > alien[i].y &&
+                shoot[b].y < alien[i].y+invader.height) {
+                        console.log('yes!');
+                        score  +=1;
+                        shoot[b].x = cvs.width*2;
+                        alien[i].x = cvs.width+100;
+                    }
+                }
             }
         } 
-        }
     
 
     // Полет пули
@@ -120,12 +310,12 @@ function draw() {
     // Инопланетяни-злыдни
     
 
-    //Здоровье
-    ctx.drawImage(hp1, 50, 50);
-    ctx.drawImage(hp2, 50, 50);
-    ctx.drawImage(hp3, 50, 50);
+    ctx.fillStyle = "white";
+	ctx.font = "bold 30pt courier";
+	ctx.fillText('Ваш счет: '+score+'',50,40);
 
 
+    
     requestAnimationFrame(draw);
 }
 
